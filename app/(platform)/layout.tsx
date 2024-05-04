@@ -1,5 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
-
+import { Toaster } from "sonner";
  const PlatformLayout = ({
     children,
 }: {
@@ -7,6 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 }) => {
   return (
     <ClerkProvider>
+      <Toaster/>
       {children}
         </ClerkProvider>
         
