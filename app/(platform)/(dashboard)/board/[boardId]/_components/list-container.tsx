@@ -133,7 +133,10 @@ export const ListContainer =({
                 });
 
                 setOrderedData(newOrderedData);
-                //TODO: Trigger Server Action
+                executeUpdateCardOrder({
+                    boardId: boardId,
+                    items: destList.cards
+                });
 
             }
         }
