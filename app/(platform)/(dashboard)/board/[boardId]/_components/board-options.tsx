@@ -14,9 +14,11 @@ import { toast } from "sonner";
 interface BoardOptionsProps {
     id: string;
 }
-export const BoardOptions =({id}: BoardOptionsProps) => {
+export const BoardOptions =({ 
+    id 
+}: BoardOptionsProps) => {
     const {execute, isLoading} = useAction(deleteBoard, {
-        
+       
         onError: (error) => {
             toast.error(error);
         }
@@ -24,6 +26,7 @@ export const BoardOptions =({id}: BoardOptionsProps) => {
     });
 
     const onDelete = () => {
+        console.log("onDelete called with id:", id);
         execute({id});
     }
     return (

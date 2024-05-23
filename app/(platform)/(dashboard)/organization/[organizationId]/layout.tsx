@@ -16,6 +16,7 @@ const OrganizationIdLayout = ({children
     < >
     <OrgControl/>
       {children}
+      
     </>
   );
 };
