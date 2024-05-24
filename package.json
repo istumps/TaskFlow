@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint", 
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.12",
@@ -31,6 +32,7 @@
     "react-dom": "^18",
     "sonnar": "^1.0.0",
     "sonner": "^1.4.41",
+    "stripe": "^15.8.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "unsplash-js": "^7.0.19",

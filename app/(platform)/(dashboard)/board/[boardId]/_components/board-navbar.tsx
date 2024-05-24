@@ -9,6 +9,7 @@ import { BoardOptions } from "./board-options";
 
 interface BoardNavbarProps {
     data:Board;
+  
 
 }
 
@@ -22,7 +23,7 @@ export const BoardNavbar = async ({
         flex items-center px-6 gap-x-4 text-white">
             <BoardTitleForm data={data}/>
             <div className="ml-auto">
-                <BoardOptions id={data}/>
+                <BoardOptions id={data.id}/> {/*Changed from data to data.id*/}
             </div>
         </div>
     )

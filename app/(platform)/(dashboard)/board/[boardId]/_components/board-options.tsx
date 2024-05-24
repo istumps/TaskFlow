@@ -14,7 +14,7 @@ import { toast } from "sonner";
 interface BoardOptionsProps {
     id: string;
 }
-export const BoardOptions =({ 
+export const BoardOptions = ({ 
     id 
 }: BoardOptionsProps) => {
     const {execute, isLoading} = useAction(deleteBoard, {
@@ -26,9 +26,9 @@ export const BoardOptions =({
     });
 
     const onDelete = () => {
-        console.log("onDelete called with id:", id);
-        execute({id});
-    }
+        //console.log("onDelete called with id:", id);
+        execute({ id });
+    }; 
     return (
         <Popover>
           <PopoverTrigger asChild>
@@ -49,8 +49,8 @@ export const BoardOptions =({
                     </Button>
                     </PopoverClose>
                     <Button
-                    variant="ghost"
                     onClick={onDelete}
+                    variant="ghost"
                     disabled={isLoading}
                     className="rounded-none w-full h-auto p-2 justify-start
                     font-normal text-sm">
