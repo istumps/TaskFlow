@@ -1,7 +1,7 @@
 "use server"
 
 import { auth } from "@clerk/nextjs"
-import { InputType } from "./types"
+import { InputType, ReturnType } from "./types"
 import { db } from "@/lib/db"
 import { revalidatePath } from "next/cache"
 import { createSafeAction } from "@/lib/create-safe-action"

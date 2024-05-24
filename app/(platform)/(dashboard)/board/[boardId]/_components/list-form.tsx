@@ -45,7 +45,7 @@ export const ListForm = () => {
     });
 
 
-    const onKeyDown = (e: React.KeyboardEvent) => {
+    const onKeyDown = (e: KeyboardEvent) => {
         if (e.key === "Escape") {
             disableEditing();
         };

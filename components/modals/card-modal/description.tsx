@@ -37,7 +37,7 @@ export const Description = ({
         setIsEditing(false);
     }   
 
-    const onKeyDown = (e: React.KeyboardEvent) => {
+    const onKeyDown = (e: KeyboardEvent) => {
         if(e.key === "Escape"){
             disableEditing();
         }
