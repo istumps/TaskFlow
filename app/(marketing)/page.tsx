@@ -33,7 +33,7 @@ const MarketingPage = () => {
             </div>
             <h1 className="text-3xl md:text-6xl text-center text-neutral-800
             mb-6">
-                Taskify helps team move
+                Task Flow helps team move
             </h1>
             <div className="text-3xl md-text-6xl bg-gradient-to-r from-fuchsia-600
              to-pink-600 text-white px-4 p-2 rounded-md pb-4 
@@ -45,11 +45,11 @@ const MarketingPage = () => {
             textFont.className)}>
             Collaborate, manage projects, and reach new productivity 
             peaks. From high rises to the new home office, the way your 
-            team works is unique-accomplish it all with Taskify.
+            team works is unique-accomplish it all with Task Flow.
         </div>
         <Button className="mt-6" size="lg" asChild>
             <Link href="sign-up">
-            Get Taskify for free
+            Get Task Flow for free
             </Link>
         </Button>
         </div>

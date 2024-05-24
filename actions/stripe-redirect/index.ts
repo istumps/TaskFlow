@@ -50,7 +50,7 @@ try{
             price_data: {
                 currency: 'USD',
                 product_data: {
-                    name: 'Taskify Pro',
+                    name: 'Task Flow Pro',
                     description: 'Unlimited boards for your organization'
                 },
                 unit_amount: 2000,

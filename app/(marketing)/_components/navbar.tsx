@@ -18,7 +18,7 @@ import Link  from "next/link";
                 </Button>
                 <Button size="sm"  asChild>
                     <Link href="/sign-up">
-                    Get Taskify for free
+                    Get Task Flow for free
                     </Link>
                 </Button>
 
