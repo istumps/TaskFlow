@@ -1,9 +1,14 @@
+
 import { Medal } from "lucide-react";
 import localFont from "next/font/local";
 import { Button } from "@/components/ui/button";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
 import {cn} from "@/lib/utils";
+import { currentUser } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+
 const headingFont = localFont({
     src: "../../public/fonts/font.woff2",
 })
@@ -21,7 +26,15 @@ const textFont = Poppins({
         "900"],
 });
 
-const MarketingPage = () => {
+const MarketingPage = async () => {  
+
+    const user = await currentUser()
+    if (user) {
+        redirect("/select-org")
+    }
+
+
+
   return (
     <div className="flex items-center justify-center flex-col">
          <div className={cn("flex items-center justify-center flex-col",
@@ -36,7 +49,7 @@ const MarketingPage = () => {
                 Task Flow helps team move
             </h1>
             <div className="text-3xl md-text-6xl bg-gradient-to-r from-fuchsia-600
-             to-pink-600 text-white px-4 p-2 rounded-md pb-4 
+             to-pink-600 text-white px-4 p-2 rounded-md  
             w-fit">
                 work forward
             </div>
