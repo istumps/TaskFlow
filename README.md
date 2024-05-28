@@ -5,8 +5,7 @@ A TaskFlow is a task management tool heavily inspired by Trello, where users can
 
 ![image](https://github.com/istumps/TaskFlow/assets/90006484/90fd3c74-7ba2-473f-87fa-1219386f6619)
 
-<img alt="Screen Shot 2023-08-06 at 3 27 58 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/b4779642-644b-49ad-b3d9-38d780622aad)
-">
+![image](https://github.com/istumps/TaskFlow/assets/90006484/8585e43f-9f62-4d59-8c97-833c8704044b)
 
 ## Getting Started
 
