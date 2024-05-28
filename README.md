@@ -7,7 +7,7 @@ A TaskFlow is a task management tool heavily inspired by Trello, where users can
 
 ## Getting Started
 
-1. Visit the [TaskFlow Website](task-flow-alpha.vercel.app).
+1. Visit the [TaskFlow Website](https://task-flow-alpha.vercel.app).
 2. Sign up or log in to explore the tools.
 3. Enjoy 5 free boards under the Free tier, or upgrade to the Pro tier for unlimited boards.
 
