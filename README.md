@@ -3,10 +3,10 @@
 A TaskFlow is a task management tool heavily inspired by Trello, where users can organize projects via workspaces, boards, lists, and cards. It tracks activities with audit logs and manages collaboration through member roles, enhancing team coordination and project oversight.
 
 
-<img width="400" alt="Screen Shot 2023-08-06 at 3 29 06 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/c357e880-65a7-45b1-8694-ed0d6dd4359c)
+<img  alt="Screen Shot 2023-08-06 at 3 29 06 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/c357e880-65a7-45b1-8694-ed0d6dd4359c)
 ">
 
-<img width="400" alt="Screen Shot 2023-08-06 at 3 27 58 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/b4779642-644b-49ad-b3d9-38d780622aad)
+<img alt="Screen Shot 2023-08-06 at 3 27 58 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/b4779642-644b-49ad-b3d9-38d780622aad)
 ">
 
 ## Getting Started
