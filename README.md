@@ -1,40 +1,61 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TaskFlow
+
+A TaskFlow is a task management tool heavily inspired by Trello, where users can organize projects via workspaces, boards, lists, and cards. It tracks activities with audit logs and manages collaboration through member roles, enhancing team coordination and project oversight.
+
+
+<img width="400" alt="Screen Shot 2023-08-06 at 3 29 06 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/c357e880-65a7-45b1-8694-ed0d6dd4359c)
+">
+
+<img width="400" alt="Screen Shot 2023-08-06 at 3 27 58 AM" src="![image](https://github.com/istumps/TaskFlow/assets/90006484/b4779642-644b-49ad-b3d9-38d780622aad)
+">
 
 ## Getting Started
 
-First, run the development server:
+1. Visit the [TaskFlow Website](task-flow-alpha.vercel.app).
+2. Sign up or log in to explore the tools.
+3. Enjoy 5 free boards under the Free tier, or upgrade to the Pro tier for unlimited boards.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Pro Tier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The Pro tier is available at no cost as part of my development exercise with Stripe.
+- Users can simulate a subscription using dummy credit card details provided in the sign-up flow.
+    - Credit Card #: 4242 4242 4242 4242; Credit Card Month/Year: 04/24; CVV: 424; Address: 4242 Fun, San Francisco, CA 94014;
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+### Frontend
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript
+- React
+- Next.js
+- shadcnUI & TailwindCSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Backend
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Prisma
+- MySQL
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# trello-clone
->>>>>>> origin/main
+### Authentication
+
+- Clerk (for credential management with email + Google sign-in support)
+
+
+### Payments
+
+- Stripe (for handling subscriptions and payment processes)
+
+## Features
+
+- Organizations / Workspaces: Support for multiple organizations and workspaces, enabling teams to collaborate efficiently.
+- Board Creation: Users can create boards to organize their tasks and projects.
+- Unsplash API Integration: Utilizes Unsplash API to provide random beautiful cover images for boards.
+- Activity Log: Maintains an activity log for the entire organization to track changes and updates.
+- Board Management: Includes features for renaming and deleting boards.
+List Management: Users can create lists, rename, delete, drag & drop reorder, and copy lists.
+- Card Management: Supports card creation with features like description, rename, delete, drag & drop reorder, and copy.
+- Card Activity Log: Keeps a detailed log of activities related to each card.
+Board Limits: Enforces a board limit for every organization.
+- UI/UX: Features a responsive and visually appealing interface built with shadcnUI & TailwindCSS.
