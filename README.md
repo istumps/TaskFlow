@@ -50,7 +50,7 @@ A TaskFlow is a task management tool heavily inspired by Trello, where users can
 - Unsplash API Integration: Utilizes Unsplash API to provide random beautiful cover images for boards.
 - Activity Log: Maintains an activity log for the entire organization to track changes and updates.
 - Board Management: Includes features for renaming and deleting boards.
-List Management: Users can create lists, rename, delete, drag & drop reorder, and copy lists.
+- List Management: Users can create lists, rename, delete, drag & drop reorder, and copy lists.
 - Card Management: Supports card creation with features like description, rename, delete, drag & drop reorder, and copy.
 - Card Activity Log: Keeps a detailed log of activities related to each card.
 Board Limits: Enforces a board limit for every organization.
